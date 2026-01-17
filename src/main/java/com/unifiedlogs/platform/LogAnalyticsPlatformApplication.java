@@ -1,5 +1,11 @@
 package com.unifiedlogs.platform;
 
+/**
+ * Author : Kunal Mishra
+ * Date : 17-01-2026
+ */
+
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
