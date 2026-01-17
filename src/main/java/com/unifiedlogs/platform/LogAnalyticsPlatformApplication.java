@@ -4,7 +4,6 @@ package com.unifiedlogs.platform;
  * Date : 17-01-2026
  */
 
-/
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
