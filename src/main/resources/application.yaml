@@ -1,3 +1,27 @@
+
+server:
+  port: 8080
+
 spring:
   application:
     name: log-analytics-platform
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/logsdb
+
+    redis:
+      host: localhost
+      port: 6379
+
+    elasticsearch:
+      uris: http://localhost:9200
+
+  cache:
+    type: redis
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
